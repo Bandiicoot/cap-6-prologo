@@ -1,7 +1,7 @@
 import * as express from "express";
 const app = express();
 const port = process.env.PORT || 3000;
-console.log(process.env.FIREBASE_CONECTION);
+//console.log(process.env.FIREBASE_CONECTION);
 
 app.get("/hola", (req, res) => {
   res.json({
@@ -11,5 +11,5 @@ app.get("/hola", (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("hola soy express");
+  console.log("hola soy express y estoy corriendo en el puerto" + port);
 });
