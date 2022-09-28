@@ -9,6 +9,6 @@ app.get("/hola", function (req, res) {
         message: "hola soy el servidor,heroku SOY AXELe Y ASDHAGOAAOGADSDASFGFD Y VAS A FUNCIONAAAAAAAARRRRRRR????????"
     });
 });
-app.listen(3000, function () {
+app.listen(port, function () {
     console.log("hola soy express y estoy corriendo en el puerto" + port);
 });
